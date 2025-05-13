@@ -53,9 +53,7 @@ res.json({ message: 'Oi Thiago meu nome é Leticia'});
 mongoose.connect('mongodb://localhost:27017/ARQUIVO')
  .then(() => {
     console.log('Conectou ao banco!');
-    app.listen(3000 , () => {
-      console.log('Servidor rodando na porta 3000');
-    });
+    app.listen(3000 )
 
   
  })
